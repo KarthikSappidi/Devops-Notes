@@ -1,0 +1,75 @@
+# Linux #
+- Linux is an open source operating system (OS). An operating system is the software that directly manages a system's hardware and resources, like CPU, memory, and storage. The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.
+- The full form of LINUX is Lovable Intellect Not Using XP. Linux was built by and named after Linus Torvalds. Linux is an open-source operating system for servers, computers, mainframes, mobile systems, and embedded systems.
+- Today, Linux runs many of the technologies that power up devices and services. From mobile phones, Google applications, social media networks, to GPS services, Internet of Things (IoT) and Artificial Intelligence (AI) products etc.
+- All of the fastest 500 supercomputers in the world run on Linux.
+- 97 percent of the top 1 million web servers(powers internet) run on Linux OS.
+- Typically, Linux is packaged in a form known as a Linux distribution (or distro for short) for both desktop [GUI] and server [CLI] use.
+- Free Server Distributions are Ubuntu, CentOS, Debian, openSUSE etc.
+
+# Ununtu #
+- Ease of use
+- Large community of users and developers.
+- Modern Sopftware packages.
+- Released every six months.
+
+# Linux Architecture #
+- Shell : Shell is a command line interpreter i.e, translates commands entered by the user and converts them into a language that is understood by Kernel.
+- echo $SHELL
+- In order to execute commands in Ubuntu, one can use the Bash shell. The Bash shell is a command-line interface that allows users to interact with the Ubuntu operating system through a series of text commands.
+- Kernel: Central module(Heart) of OS, interacts with Hardware and responsible for memory management, process management etc.
+- uname -r
+
+# Command Line Interface #
+- By mastering the CLI, users can greatly enhance their productivity and streamline their workflow.
+- Additionally, the CLI can be a valuable tool for automating repetitive tasks and performing complex operations that would be difficult or impossible to accomplish through graphical user interfaces (GUIs).
+
+# Hardware Check Commands #
+- CPU info: cat/proc/cpuinfo
+- Ram: free -m
+- HDD: df -h
+
+# Basic Linux Commands #
+- The base of the Linux file system hierarchy begins at the root (/). Directories branch off the root, but everything starts at root.
+- If you hear someone say look in the slash(/) or that file is in tha slash they are reffering to Root Directory.
+
+  # COMMANDS #
+  
+- ls: To list the names and features of files and directory.
+- pwd: It states the present working directory.
+- mkdir: To create folders.
+- touch: To create files.
+- cd: change directory.
+- cd ~: To return to home directory.
+- mv: To move.
+- cp: To copy.
+- rm: To delete.
+- alias: Create a shortcut to another command.
+- ls -l: To list contents with details.
+- ls -a: To list content along with hidden files.
+- cp skr karthik: To copy skr file to karthik file.
+- cp -r skr directory to sappidi directory: To Copy recursively skr directory to sappidi directory.
+- mv skr sappidi: renames skr as sappidi.
+- rm skr: removes file skr.
+- rm -r dir name: removes directory recursively.
+- chmod 750 file 1: change permission of file1 by specifying a three digit octal # where digits are owner, group, world each octal digit in binary are: read (4) ,write (2) ,execute (1)
+- cat file 1: display file 1 to screen.
+- less file 1: display file1 with pagination.
+- ps: list process with pid.
+- top: shows the real time process.
+- kill: To kill the proocess.
+- sudo: To run command as root ( only if we have access).
+- find: To find  a file find /dir/to/search -name file-to-search.
+- grep: To filter the output.You can use grep to search in files, or combine it with pipes to filter the output of another command.
+- awk: file processing and report generating.
+- man: suffix the command with man it give details of the command.
+- open: open command lets you open the files.
+- ln: It is used to create a links.
+- tar: Tar command is used to create an archive, grouping multiple files in a single file.
+- less: The less command . It shows you the content stored inside a file, in a nice and interactive UI.
+- tail: The best use case of tail in my opinion is when called with the -f option. It opens the file at the end, and watches for file changes. Any time there is new content in the file, it is printed in the window. This is great for watching log files
+- wc: The wc command gives us useful information about a file or input it receives via pipes.
+- sort: sort command helps to sorting the unsorted files or names.
+- diff: diff is a handy command. Suppose you have 2 files, which contain almost the same information, but you can't find the difference between the two.
+- echo: echo does the simple job it prints to output the arguement passed to it.
+- 
