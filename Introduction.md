@@ -10,7 +10,7 @@
 ## Development ##
 - Develpoment: Its more about creating software applications.
 
-## DevOps Tools ##
+# DevOps Tools #
 
 # Version Control System #
 - git
