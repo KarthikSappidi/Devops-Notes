@@ -9,5 +9,5 @@
 
 # SSH Syntax #
 - chmod 400
-- ssh -i <pemkey> username@publicipaddress
+- ssh -i pemkey username@publicipaddress
   
